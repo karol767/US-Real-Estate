@@ -764,6 +764,11 @@ X_train_onehot_pca = pca_final.fit_transform(X_train_onehot_n_scaled)
 X_test_onehot_pca = pca_final.transform(X_test_onehot_n_scaled)
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 126c90fe18724879784982ecffe6c1fd5f1edd22
 reg = linear_model.LinearRegression()
 reg.fit(X_train_with_outliers_one_hot, y_train_with_outliers_one_hot)
 
@@ -809,6 +814,11 @@ print('Training Set R^2 value: ' + str(lin_reg_score_train))
 print('Mean Squared Error: ' + str(mse))
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 126c90fe18724879784982ecffe6c1fd5f1edd22
 xgb1 = XGBRegressor()
 
 parameters = {
